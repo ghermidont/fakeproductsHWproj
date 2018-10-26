@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javafaker-0.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.idea/lib/javafaker-0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
