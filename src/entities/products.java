@@ -25,16 +25,16 @@ public class products {
 
             System.out.println("*******************************************************************\n* The program has no input data type checker.                     *\n* Thus, please input the data in the format indicated in the \"()\" *\n*******************************************************************\n" );
             System.out.println("Please input the category of the new product (String):");
-            this.category = prodIN.nextLine();
+            this.category = prodIN.next();
 
             System.out.println("\nPlease input the name of the product (String):");
-            this.name = prodIN.nextLine();
+            this.name = prodIN.next();
 
             System.out.println("\nPlease input the price of the product (float data type format):");
             this.price = prodIN.nextFloat();
 
             System.out.println("\nPlease input the manufacturer of the product (String):");
-            this.manufacturer = prodIN.nextLine();
+            this.manufacturer = prodIN.next();
 
             System.out.println("\n");
             this.expires = f.date().future(1000, TimeUnit.DAYS);
